@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/carrinho-de-compras.png" />
+
+    <title>Carrinho de compras</title>
+    <link rel="stylesheet" href="css/style-2.css" />
+</head>
+<body>
+
+    <div class="models">
+
+        <div class="show-item">
+            <a href="">
+                <div class="show-item--img"><img src="" /></div>
+                <div class="show-item--add">+</div>
+            </a>
+            <div class="show-item--price">R$ --</div>
+            <div class="show-item--name">--</div>
+            <div class="show-item--desc">--</div>
+        </div>
+
+        <div class="cart--item">
+            <img src="" />
+            <div class="cart--item-nome">--</div>
+            <div class="cart--item--qtarea">
+                <button class="cart--item-qtmenos">-</button>
+                <div class="cart--item--qt">1</div>
+                <button class="cart--item-qtmais">+</button>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <h1>Escolha o show</h1>
+        <div class="menu-openner"><span>0</span>🛒</div>
+    </header>
+    <main>
+        <h2>Shows</h2>
+        <div class="show-area"></div>
+    </main>
+
+    <aside>
+        <div class="cart--area">
+            <div class="menu-closer">❌</div>
+            <h1>Seus ingressos</h1>
+            <div class="cart"></div>
+            <div class="cart--details">
+                <div class="cart--totalitem subtotal">
+                    <span>Subtotal</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem desconto">
+                    <span>Desconto</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--totalitem total big">
+                    <span>Total</span>
+                    <span>R$ --</span>
+                </div>
+                <div class="cart--finalizar">Finalizar a compra</div>
+            </div>
+        </div>
+    </aside>
+
+    <div class="showWindowArea">
+        <div class="showWindowBody">
+            <div class="showInfo--cancelMobileButton">Voltar</div>
+            <div class="showBig">
+                <img src="" />
+            </div>
+            <div class="showInfo">
+                <h1>--</h1>
+                <div class="showInfo--desc">--</div>
+                <div class="showInfo--sizearea">
+                    <div class="showInfo--sector">Tipo</div>
+                    <div class="showInfo--sizes">
+                        <div data-key="Comédia" class="showInfo--size">MEIA <span>--</span></div>
+                        <div data-key="Comédia" class="showInfo--size">INTEIRA <span>--</span></div>
+                        <div data-key="Comédia" class="showInfo--size selected">10 REAIS <span>--</span></div>
+                    </div>
+                </div>
+                <div class="showInfo--pricearea">
+                    <div class="showInfo--sector">Preço</div>
+                    <div class="showInfo--price">
+                        <div class="showInfo--actualPrice">R$ --</div>
+                        <div class="showInfo--qtarea">
+                            <button class="showInfo--qtmenos">-</button>
+                            <div class="showInfo--qt">1</div>
+                            <button class="showInfo--qtmais">+</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="showInfo--addButton">Adicionar ao carrinho</div>
+                <div class="showInfo--cancelButton">Cancelar</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/shows.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
